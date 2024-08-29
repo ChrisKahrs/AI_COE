@@ -9,12 +9,12 @@
 
 <ul>
 <li>Responsible for assessing applications from individual business units for corporate fit. This process often involves quantifying business value and technical capability, plotting them along the x and y axis to prioritize applications. Items in the top right quadrant are approved first. Sometimes, the COE may simply provide feedback, leaving the final decision to each business unit.</li>
-<li><strong>Key links:</strong> Azure Application Insights, Azure Advisor</li>
+<li><strong>Key links:</strong> Azure Application Insights, [Azure Advisor](http://microsoft.com/), [dill]</li>
 </ul></li>
 <li><p><strong>Guidance on AI Application Development:</strong></p>
 
 <ul>
-<li>Providing advice to other business units on how to craft applications using generative/classical AI. Many application development teams excel in web development but lack expertise in generative AI. The COE can offer tips and guidance, especially for current search and RAG (Retrieval-Augmented Generation) patterns prevalent in AI/LLM applications.</li>
+<li>Providing advice to other business units on how to craft applications using generative/classical AI. Many application development teams excel in web development but lack expertise in generative AI. The COE can offer tips and guidance, especially for current search and RAG (Retrieval-Augmented Generation) patterns prevalent in AI/GenAI applications.</li>
 <li><strong>Key links:</strong> Azure AI Services, Azure Machine Learning</li>
 </ul></li>
 <li><p><strong>Strong LMMOps Model and Process:</strong></p>
@@ -77,7 +77,7 @@
 <li>Establishing protocols for identifying, reporting, and mitigating errors in AI systems to maintain reliability and trust.</li>
 <li><strong>Key links:</strong> Azure Monitor, Azure Application Insights</li>
 </ul></li>
-<li><p><strong>Support for LLM/Ticketing:</strong></p>
+<li><p><strong>Support for GenAI/Ticketing:</strong></p>
 
 <ul>
 <li>Providing support and a ticketing system for issues related to large language models, ensuring quick resolution and continuous improvement.</li>
@@ -101,7 +101,7 @@
 <li>Planning and managing the costs associated with AI projects, optimizing resource utilization and capacity planning to prevent overspending.</li>
 <li><strong>Key links:</strong> Azure Cost Management, Azure Capacity Planning</li>
 </ul></li>
-<li><p><strong>Efficient Use of LLMs:</strong></p>
+<li><p><strong>Efficient Use of GenAIs:</strong></p>
 
 <ul>
 <li>Large language models can be expensive if not used appropriately. The COE should ensure efficient and effective use to maximize ROI.</li>
@@ -167,3 +167,8 @@
 <p>This can be a daunting checklist. Once you determine which items are key for your corporate AI Service Provider function, we are happy to have specific discussions around each or review your architecture as a whole. If you do not wish to centralize these functions, the first business unit to roll out generative AI solutions can offer a "blueprint" documenting their approach. This can help new business units avoid common pitfalls and ensure a smoother implementation process. Starting from scratch is challenging, and many teams forget one or more of these crucial elements.</p>
 
 <p>Thank you!</p>
+
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+   [dill]: <https://github.com/joemccann/dillinger>
