@@ -9,17 +9,18 @@
 
 <ul>
 <li>Responsible for assessing applications from individual business units for corporate fit. This process often involves quantifying business value and technical capability, plotting them along the x and y axis to prioritize applications. Items in the top right quadrant are approved first. Sometimes, the COE may simply provide feedback, leaving the final decision to each business unit.</li>
-<li><strong>Key links:</strong> Azure Application Insights, 
+<li><strong>Key links: </strong> 
 
-[Azure Advisor](http://microsoft.com)
-
-[Azure Advisor](http://microsoft.com/), [This is an external link to genome.gov](https://www.genome.gov/)</li>
+[Azure Application Insights](https://azure.microsoft.com/en-us/services/monitor/), 
+[Azure Advisor](http://microsoft.com/)</li>
 </ul></li>
 <li><p><strong>Guidance on AI Application Development:</strong></p>
 
 <ul>
 <li>Providing advice to other business units on how to craft applications using generative/classical AI. Many application development teams excel in web development but lack expertise in generative AI. The COE can offer tips and guidance, especially for current search and RAG (Retrieval-Augmented Generation) patterns prevalent in AI/GenAI applications.</li>
-<li><strong>Key links:</strong> Azure AI Services, Azure Machine Learning</li>
+<li><strong>Key links:</strong> 
+
+[Azure AI Services](https://azure.microsoft.com/en-us/services/cognitive-services/), [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)</li>
 </ul></li>
 <li><p><strong>Strong LMMOps Model and Process:</strong></p>
 
