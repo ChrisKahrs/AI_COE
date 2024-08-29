@@ -1,171 +1,187 @@
-<h1>Internal AI Service Provider/COE</h1>
+<h1>Internal AI Service Provider/Center of Excellence</h1>
 
-<p>When implementing AI within a company, a common pattern is to have one group take the lead. This is often central IT, but not always; a key business unit can work just as well. There are many aspects to rolling this structure forward, and this blog will discuss many of them to ensure you have a plan, or at least a way to think about each of them.</p>
+When implementing AI/GenAI within a company, a common pattern is to have one group take the lead. This is often central IT, but not always; a key business unit can work just as well. This coinsides with the rise of the Chief AI Officer (CAIO) role being created and elevated to often reporting to the CEO to ensure business is unincumbered to quickly take advantage of these new models.  
 
-<h2>Responsibilities for a COE (Center of Excellence)</h2>
+There are many aspects to rolling this structure forward, and this repo will discuss many of them to ensure you have a plan, or at least provide a framework/structure to think about each of them. It is broken up into the following considerations but also cross linked where appropriate.
 
-<ol>
-<li><p><strong>Vetting Application Portfolio:</strong></p>
+   - People
+   - Business/Process
+   - Technology
 
-<ul>
-<li>Responsible for assessing applications from individual business units for corporate fit. This process often involves quantifying business value and technical capability, plotting them along the x and y axis to prioritize applications. Items in the top right quadrant are approved first. Sometimes, the COE may simply provide feedback, leaving the final decision to each business unit.</li>
-<li><strong>Key links: </strong> 
+This document is a living document and will be updated as new information becomes available and can be directly linked here: [AI COE](https://aka.ms/ai/coe).</p>
 
-[Azure Application Insights](https://azure.microsoft.com/en-us/services/monitor/), 
-[Azure Advisor](http://microsoft.com/)</li>
-</ul></li>
-<li><p><strong>Guidance on AI Application Development:</strong></p>
+<h2>Business Considerations for a COE - People</h2>
 
-<ul>
-<li>Providing advice to other business units on how to craft applications using generative/classical AI. Many application development teams excel in web development but lack expertise in generative AI. The COE can offer tips and guidance, especially for current search and RAG (Retrieval-Augmented Generation) patterns prevalent in AI/GenAI applications.</li>
-<li><strong>Key links:</strong> 
+1. <strong>Vetting Application Portfolio:</strong>
+   - Responsible for assessing applications from individual business units for corporate fit. This process often involves quantifying business value and technical capability, plotting them along the x and y axis to prioritize applications. Items in the top right quadrant are approved first. Sometimes, the COE may simply provide feedback, leaving the final decision to each business unit. </li>
+   - Key links:
+      - [Technical considerations for this topic](#Technical-Considerations-for-a-COE)
+      - [Azure Application Insights](https://azure.microsoft.com/en-us/services/monitor/)
+      - [Azure Advisor](http://microsoft.com/) 
 
-[Azure AI Services](https://azure.microsoft.com/en-us/services/cognitive-services/), [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)</li>
-</ul></li>
-<li><p><strong>Strong LMMOps Model and Process:</strong></p>
+1. <strong>Guidance on AI Application Development:</strong>
+   - Providing advice to other business units on how to craft applications using generative/classical AI. Many application development teams excel in web development but lack expertise in generative AI. The COE can offer tips and guidance, especially for current search and RAG (Retrieval-Augmented Generation) patterns prevalent in AI/GenAI applications.
+   - Prompt Eng framework and understanding of tools/process
+   - Key links:
+      - [Azure AI Services](https://azure.microsoft.com/en-us/services/cognitive-services/)
+      - [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
 
-<ul>
-<li>Ensuring a robust model for managing machine learning operations (MLOps), specifically for large language models (LLMs). This includes monitoring, maintaining, and updating models to ensure they meet the company's standards and needs. Moving models to production is key.</li>
-<li><strong>Key links:</strong> Azure MLOps, Azure DevOps</li>
-</ul></li>
-<li><p><strong>Model Management:</strong></p>
+1. <strong>Strong LMMOps Model and Process:</strong>
+   - Ensuring a robust model for managing machine learning operations (MLOps), specifically for large language models (LLMs). This includes monitoring, maintaining, and updating models to ensure they meet the company's standards and needs. Moving models to production is key.
+   - Review AI Studio as a framework for LLMOps continuous evaluation and deployment
+   - Key links:
+      - [Azure MLOps](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-ops-overview)
+      - [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/)
 
-<ul>
-<li>Managing models across business units can become complex. A centralized COE can streamline testing new models and maintaining an internal model catalog, aiding in adoption and future-proofing.</li>
-<li><strong>Key links:</strong> Azure OpenAI Service, Azure Machine Learning Model Management</li>
-</ul></li>
-<li><p><strong>Testing of New Models:</strong></p>
+1.<strong>Model Management:</strong>
+   - Managing models across business units can become complex. A centralized COE can streamline testing new models and maintaining an internal model catalog, aiding in adoption and future-proofing.
+   - Key links:
+      - [Azure OpenAI Service](https://azure.microsoft.com/en-us/services/cognitive-services/openai/)
+      - [Azure Machine Learning Model Management](https://azure.microsoft.com/en-us/services/machine-learning/)
 
-<ul>
-<li>The COE should handle the evaluation and testing of new AI models to ensure they meet the company's performance and ethical standards before deployment.</li>
-<li><strong>Key links:</strong> Azure Machine Learning Model Evaluation, Azure DevTest Labs</li>
-</ul></li>
-<li><p><strong>Key Management:</strong></p>
+1. <strong>Testing of New AI Stack (including Models, Frameworks, APIs, etc.):</strong>
+   - The COE should handle the evaluation and testing of new AI models to ensure they meet the company's performance and ethical standards before deployment.
+   - Key links:
+      - [Azure Machine Learning Model Evaluation](https://azure.microsoft.com/en-us/services/machine-learning/)
+      - [Azure DevTest Labs](https://azure.microsoft.com/en-us/services/devtest-lab/)
 
-<ul>
-<li>Overseeing the management of cryptographic keys used in AI systems to ensure security and compliance with company policies.</li>
-<li><strong>Key links:</strong> Azure Key Vault, Azure Security Key Management</li>
-</ul></li>
-<li><p><strong>API Management:</strong></p>
+1.<strong>Key Management:</strong>
+   - Overseeing the management of cryptographic keys used in AI systems to ensure security and compliance with company policies.
+   - Key links:
+      - [Azure Key Vault](https://azure.microsoft.com/en-us/services/key-vault/)
+      - [Azure Security Key Management](https://azure.microsoft.com/en-us/services/security-center/)
 
-<ul>
-<li>Managing APIs to ensure they are secure, efficient, and meet the needs of various business units. This includes version control and monitoring API usage.</li>
-<li><strong>Key links:</strong> Azure API Management, Azure API Gateway</li>
-</ul></li>
-<li><p><strong>Agentic Framework:</strong></p>
+1.<strong>API Management:</strong>
+   - Managing APIs to ensure they are secure, efficient, and meet the needs of various business units. This includes version control and monitoring API usage.
+   - Key links:
+      - [Azure API Management](https://azure.microsoft.com/en-us/services/api-management/)
+      - [Azure API Gateway](https://azure.microsoft.com/en-us/services/api-gateway/)
 
-<ul>
-<li>Establishing frameworks for AI agents that can autonomously perform tasks, ensuring they align with business goals and ethical standards.</li>
-<li><strong>Key links:</strong> Azure Bot Service, Azure AI Agent</li>
-</ul></li>
-<li><p><strong>Fine-Tuning Guidance:</strong></p>
+1.<strong>Agentic Framework:</strong>
+   - Establishing frameworks for AI agents that can autonomously perform tasks, ensuring they align with business goals and ethical standards.
+   - Key links:
+      - [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-service/)
+      - [Azure AI Agent](https://azure.microsoft.com/en-us/services/cognitive-services/)
 
-<ul>
-<li>Providing guidelines for fine-tuning AI models to better suit specific business needs without compromising performance or safety.</li>
-<li><strong>Key links:</strong> Azure Machine Learning - Fine-tuning models, Azure Custom Vision</li>
-</ul></li>
-<li><p><strong>Unified Model for Content Safety:</strong></p>
+1.<strong>Fine-Tuning Guidance:</strong>
+   - Providing guidelines for fine-tuning AI models to better suit specific business needs without compromising performance or safety.
+   - Key links:
+      - [Azure Machine Learning - Fine-tuning models](https://azure.microsoft.com/en-us/services/machine-learning/)
+      - [Azure Custom Vision](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/)
 
-<ul>
-<li>Developing a unified approach to content safety to prevent the dissemination of harmful or inappropriate content generated by AI models.</li>
-<li><strong>Key links:</strong> Azure Content Moderator, Azure Security Center</li>
-</ul></li>
-<li><p><strong>Consistent Implementation of Responsible AI Principles:</strong></p>
+1.<strong>Unified Model for Content Safety and Abuse Monitoring:</strong>
+   - Developing a unified approach to content safety to prevent the dissemination of harmful or inappropriate content generated by AI models.
+   - Key links:
+      - [Azure Content Moderator](https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/)
+      - [Azure Security Center](https://azure.microsoft.com/en-us/services/security-center/)
 
-<ul>
-<li>Ensuring all AI projects adhere to the company's Responsible AI principles, promoting ethical and fair AI usage.</li>
-<li><strong>Key links:</strong> Microsoft Responsible AI, Azure AI Ethics and Responsible AI</li>
-</ul></li>
-<li><p><strong>Error Handling and Control:</strong></p>
+1.<strong>Consistent Implementation of Responsible AI Principles:</strong>
+   - Ensuring all AI projects adhere to the company's Responsible AI principles, promoting ethical and fair AI usage.
+   - Key links:
+      - [Microsoft Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai)
+      - [Azure AI Ethics](https://azure.microsoft.com/en-us/services/cognitive-services/)
 
-<ul>
-<li>Establishing protocols for identifying, reporting, and mitigating errors in AI systems to maintain reliability and trust.</li>
-<li><strong>Key links:</strong> Azure Monitor, Azure Application Insights</li>
-</ul></li>
-<li><p><strong>Support for GenAI/Ticketing:</strong></p>
+1.<strong>Error Handling and Control:</strong>
+   - Establishing protocols for identifying, reporting, and mitigating errors in AI systems to maintain reliability and trust.
+   - Key links:
+      - [Azure Monitor](https://azure.microsoft.com/en-us/services/monitor/)
+      - [Azure Application Insights](https://azure.microsoft.com/en-us/services/application-insights/)
 
-<ul>
-<li>Providing support and a ticketing system for issues related to large language models, ensuring quick resolution and continuous improvement.</li>
-<li><strong>Key links:</strong> Azure Support Plans, Azure Service Health</li>
-</ul></li>
-<li><p><strong>Legal Indemnification Requirements:</strong></p>
+1.<strong>Support for GenAI/Ticketing:</strong>
+   - Providing support and a ticketing system for issues related to large language models, ensuring quick resolution and continuous improvement.
+   - Key links:
+      - [Azure Support Plans](https://azure.microsoft.com/en-us/support/plans/)
+      - [Azure Service Health](https://azure.microsoft.com/en-us/features/service-health/)
 
-<ul>
-<li>Managing legal risks associated with AI usage, ensuring compliance with regulations, and protecting the company from potential liabilities.</li>
-<li><strong>Key links:</strong> Microsoft AI Legal, Microsoft AI Compliance</li>
-</ul></li>
-<li><p><strong>Corporate Compliance:</strong></p>
+1.<strong>Legal Indemnification Requirements:</strong>
+   - Managing legal risks associated with AI usage, ensuring compliance with regulations, and protecting the company from potential liabilities.
+   - Key links:
+      - [Microsoft AI Legal](https://www.microsoft.com/en-us/legal/intellectualproperty/ai/)
+      - [Microsoft AI Compliance](https://www.microsoft.com/en-us/trust-center/compliance/compliance-offerings)
 
-<ul>
-<li>Ensuring AI projects comply with corporate rules and regulations, including data privacy laws and industry-specific standards.</li>
-<li><strong>Key links:</strong> Azure Compliance Offerings, Microsoft Compliance Manager</li>
-</ul></li>
-<li><p><strong>Cost Containment and Resource Utilization:</strong></p>
+1.<strong>Corporate Compliance:</strong>
+   - Ensuring AI projects comply with corporate rules and regulations, including data privacy laws and industry-specific standards.
+   - Key links:
+      - [Azure Compliance Offerings](https://azure.microsoft.com/en-us/overview/trusted-cloud/compliance/)
+      - [Microsoft Compliance Manager](https://www.microsoft.com/en-us/microsoft-365/compliance/compliance-manager)
 
-<ul>
-<li>Planning and managing the costs associated with AI projects, optimizing resource utilization and capacity planning to prevent overspending.</li>
-<li><strong>Key links:</strong> Azure Cost Management, Azure Capacity Planning</li>
-</ul></li>
-<li><p><strong>Efficient Use of GenAIs:</strong></p>
+1.<strong>Cost Containment and Resource Utilization:</strong>
+   - Planning and managing the costs associated with AI projects, optimizing resource utilization and capacity planning to prevent overspending.
+   - Key links:
+      - [Azure Cost Management](https://azure.microsoft.com/en-us/services/cost-management/)
+      - [Azure Capacity Planning](https://azure.microsoft.com/en-us/services/cost-management/)
 
-<ul>
-<li>Large language models can be expensive if not used appropriately. The COE should ensure efficient and effective use to maximize ROI.</li>
-<li><strong>Key links:</strong> Azure Machine Learning Cost Management, Azure AI Optimization</li>
-</ul></li>
-<li><p><strong>Chargebacks to Business Units:</strong></p>
+1.<strong>Efficient Use of GenAIs:</strong>
+   - Large language models can be expensive if not used appropriately. The COE should ensure efficient and effective use to maximize ROI.
+   - Key links:
+      - [Azure Machine Learning Cost Management](https://azure.microsoft.com/en-us/services/machine-learning/)
+      - [Azure AI Optimization](https://azure.microsoft.com/en-us/services/cognitive-services/)
 
-<ul>
-<li>Implementing a chargeback system where business units are billed based on their usage level and the specific services they utilize.</li>
-<li><strong>Key links:</strong> Azure Cost Management + Billing, Azure Tagging for Chargebacks</li>
-</ul></li>
-<li><p><strong>Security Implementation:</strong></p>
+1.<strong>Chargebacks to Business Units:</strong>
+   - Implementing a chargeback system where business units are billed based on their usage level and the specific services they utilize.
+   - Key links:
+      - [Azure Cost Management + Billing](https://azure.microsoft.com/en-us/services/cost-management/)
+      - [Azure Tagging for Chargebacks](https://azure.microsoft.com/en-us/services/cost-management/)
 
-<ul>
-<li>Ensuring top-notch security, potentially using services like Entra, to protect AI systems and data.</li>
-<li><strong>Key links:</strong> Azure Active Directory (Entra), Azure Security Center</li>
-</ul></li>
-<li><p><strong>Independent Software Vendors (ISVs):</strong></p>
+1.<strong>Security Implementation:</strong>
+   - Ensuring top-notch security, potentially using services like Entra, to protect AI systems and data.
+   - Key links:
+      - [Azure Active Directory (Entra)](https://azure.microsoft.com/en-us/services/active-directory/)
+      - [Azure Security Center](https://azure.microsoft.com/en-us/services/security-center/)
 
-<ul>
-<li>Approving third-party software or SaaS systems and tools for use within the company, ensuring they meet security and performance standards.</li>
-<li><strong>Key Links:</strong> Azure Marketplace, Microsoft Partner Network</li>
-</ul></li>
-<li><p><strong>Approved System Integration (SI) Partners:</strong></p>
 
-<ul>
-<li>Vetted SI partners with expertise in your business and AI can be crucial for developing and deploying generative AI applications into production.</li>
-<li><strong>Key Links:</strong> Azure SI Partners, Microsoft AI Partners</li>
-</ul></li>
-<li><p><strong>Lightweight Service Provisioning:</strong></p>
+1. <strong>Independent Software Vendors (ISVs):</strong>
+   - Approving third-party software or SaaS systems and tools for use within the company, ensuring they meet security and performance standards.
+   - Key links:
+      - [Azure Marketplace](https://azure.microsoft.com/en-us/marketplace/)
+      - [Microsoft Partner Network](https://partner.microsoft.com/en-us/)
 
-<ul>
-<li>Providing a service that simply offers provisioning without additional assistance or commentary, for teams that prefer a more hands-on approach.</li>
-<li><strong>Key Links:</strong> Azure Resource Manager, Azure Automation</li>
-</ul></li>
-</ol>
+1. <strong>Approved System Integration (SI) Partners:</strong>
+   - Vetted SI partners with expertise in your business and AI can be crucial for developing and deploying generative AI applications into production.
+   - Key links:
+      - [Azure SI Partners](https://azure.microsoft.com/en-us/partners/si/)
+      - [Microsoft AI Partners](https://partner.microsoft.com/en-us/)
+
+1. <strong>Training and Certification:</strong>
+   - Providing training and certification programs for employees to enhance their AI skills and knowledge, ensuring they are up-to-date with the latest technologies and best practices.
+   - Key links:
+      - [Azure Training](https://azure.microsoft.com/en-us/training/)
+      - [Microsoft Learn](https://learn.microsoft.com/)
+
+1. <strong>Lightweight Service Provisioning:</strong>
+   - Providing a service that simply offers provisioning without additional assistance or commentary, for teams that prefer a more hands-on approach.
+   - Key links:
+      - [Azure Resource Manager](https://azure.microsoft.com/en-us/features/resource-manager/)
+      - [Azure Automation](https://azure.microsoft.com/en-us/services/automation/)
+
+
+<h2>Technical Considerations for a COE</h2>
+<h3> People </h3>
+
+<h3> Process </h3>
 
 <h2>LLM/GenAI Business Value</h2>
 
-<p><strong>1. Enhanced Decision Making:</strong>
-   - AI-driven insights provide a deeper understanding of business operations and market trends, enabling better and faster decision-making processes.</p>
+1. <strong>Enhanced Decision Making:</strong>
+   - AI-driven insights provide a deeper understanding of business operations and market trends, enabling better and faster decision-making processes.
 
-<p><strong>2. Increased Efficiency:</strong>
-   - Automating routine tasks with AI frees up human resources for more strategic work, improving overall productivity and reducing operational costs.</p>
+1. <strong>Increased Efficiency:</strong>
+   - Automating routine tasks with AI frees up human resources for more strategic work, improving overall productivity and reducing operational costs.
 
-<p><strong>3. Personalized Customer Experiences:</strong>
-   - Leveraging AI to analyze customer data can lead to highly personalized interactions, increasing customer satisfaction and loyalty.</p>
+1. <strong>Personalized Customer Experiences:</strong>
+   - Leveraging AI to analyze customer data can lead to highly personalized interactions, increasing customer satisfaction and loyalty.
 
-<p><strong>4. Innovation and Competitive Advantage:</strong>
-   - Implementing cutting-edge AI solutions can foster innovation, providing a significant competitive edge in the marketplace.</p>
+1. <strong>Innovation and Competitive Advantage:</strong>
+   - Implementing cutting-edge AI solutions can foster innovation, providing a significant competitive edge in the marketplace.
 
-<p><strong>5. Cost Reduction:</strong>
-   - AI can optimize resource allocation and reduce waste, leading to substantial cost savings across various business functions.</p>
+1. <strong>Cost Reduction:</strong>
+   - AI can optimize resource allocation and reduce waste, leading to substantial cost savings across various business functions.
 
-<p><strong>6. Risk Management:</strong>
-   - AI can enhance risk management by predicting potential issues and enabling proactive measures to mitigate them.</p>
+1. <strong>Risk Management:</strong>
+   - AI can enhance risk management by predicting potential issues and enabling proactive measures to mitigate them.
 
-<p><strong>7. Scalability:</strong>
-   - AI systems can handle large-scale operations efficiently, allowing businesses to scale their operations without a proportional increase in costs.</p>
+1. <strong>Scalability:</strong>
+   - AI systems can handle large-scale operations efficiently, allowing businesses to scale their operations without a proportional increase in costs.
 
 <h2>Conclusion</h2>
 
