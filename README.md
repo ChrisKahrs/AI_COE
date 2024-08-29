@@ -4,6 +4,8 @@
 
 <h2>Responsibilities for a COE (Center of Excellence)</h2>
  [Identify guiding principles for responsible AI]:(https://docs.microsoft.com/en-us/learn/modules/responsible-ai-principles/index)
+ 
+ [I'm an inline style link as well]?(https://www.google.com)
 
 [I'm an inline-style link](https://www.google.com)
 
