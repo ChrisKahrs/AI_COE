@@ -3,13 +3,13 @@
 <p>When implementing AI within a company, a common pattern is to have one group take the lead. This is often central IT, but not always; a key business unit can work just as well. There are many aspects to rolling this structure forward, and this blog will discuss many of them to ensure you have a plan, or at least a way to think about each of them.</p>
 
 <h2>Responsibilities for a COE (Center of Excellence)</h2>
-
+ [Identify guiding principles for responsible AI](https://docs.microsoft.com/en-us/learn/modules/responsible-ai-principles/index)
 <ol>
 <li><p><strong>Vetting Application Portfolio:</strong></p>
 
 <ul>
 <li>Responsible for assessing applications from individual business units for corporate fit. This process often involves quantifying business value and technical capability, plotting them along the x and y axis to prioritize applications. Items in the top right quadrant are approved first. Sometimes, the COE may simply provide feedback, leaving the final decision to each business unit.</li>
-<li><strong>Key links:</strong> Azure Application Insights, [Azure Advisor](http://microsoft.com/), [This is an external link to genome.gov](https://www.genome.gov/)</li>
+<li><strong>Key links:</strong> Azure Application Insights, [Azure Advisor](http://microsoft.com/),  [Identify guiding principles for responsible AI](https://docs.microsoft.com/en-us/learn/modules/responsible-ai-principles/index)</li>
 </ul></li>
 <li><p><strong>Guidance on AI Application Development:</strong></p>
 
