@@ -3,7 +3,7 @@
 <p>When implementing AI within a company, a common pattern is to have one group take the lead. This is often central IT, but not always; a key business unit can work just as well. There are many aspects to rolling this structure forward, and this blog will discuss many of them to ensure you have a plan, or at least a way to think about each of them.</p>
 
 <h2>Responsibilities for a COE (Center of Excellence)</h2>
- [Identify guiding principles for responsible AI](https://docs.microsoft.com/en-us/learn/modules/responsible-ai-principles/index)
+ [Identify guiding principles for responsible AI](https://docs.microsoft.com/en-us/learn/modules/responsible-ai-principles/index "Microsoft RAI")
 <ol>
 <li><p><strong>Vetting Application Portfolio:</strong></p>
 
