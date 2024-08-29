@@ -33,19 +33,19 @@ This document is a living document and will be updated as new information become
       - [Azure MLOps](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-ops-overview)
       - [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/)
 
-1.<strong>Model Management:</strong>
+1. <strong>Model Management:</strong>
    - Managing models across business units can become complex. A centralized COE can streamline testing new models and maintaining an internal model catalog, aiding in adoption and future-proofing.
    - Key links:
       - [Azure OpenAI Service](https://azure.microsoft.com/en-us/services/cognitive-services/openai/)
       - [Azure Machine Learning Model Management](https://azure.microsoft.com/en-us/services/machine-learning/)
 
-1.<strong>Testing of New AI Stack (including Models, Frameworks, APIs, etc.):</strong>
+1. <strong>Testing of New AI Stack (including Models, Frameworks, APIs, etc.):</strong>
    - The COE should handle the evaluation and testing of new AI models to ensure they meet the company's performance and ethical standards before deployment.
    - Key links:
       - [Azure Machine Learning Model Evaluation](https://azure.microsoft.com/en-us/services/machine-learning/)
       - [Azure DevTest Labs](https://azure.microsoft.com/en-us/services/devtest-lab/)
 
-1.<strong>Key Management:</strong>
+1. <strong>Key Management:</strong>
    - Overseeing the management of cryptographic keys used in AI systems to ensure security and compliance with company policies.
    - Key links:
       - [Azure Key Vault](https://azure.microsoft.com/en-us/services/key-vault/)
