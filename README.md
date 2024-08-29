@@ -39,7 +39,7 @@ This document is a living document and will be updated as new information become
       - [Azure OpenAI Service](https://azure.microsoft.com/en-us/services/cognitive-services/openai/)
       - [Azure Machine Learning Model Management](https://azure.microsoft.com/en-us/services/machine-learning/)
 
-1. <strong>Testing of New AI Stack (including Models, Frameworks, APIs, etc.):</strong>
+1.<strong>Testing of New AI Stack (including Models, Frameworks, APIs, etc.):</strong>
    - The COE should handle the evaluation and testing of new AI models to ensure they meet the company's performance and ethical standards before deployment.
    - Key links:
       - [Azure Machine Learning Model Evaluation](https://azure.microsoft.com/en-us/services/machine-learning/)
@@ -130,25 +130,25 @@ This document is a living document and will be updated as new information become
       - [Azure Security Center](https://azure.microsoft.com/en-us/services/security-center/)
 
 
-1. <strong>Independent Software Vendors (ISVs):</strong>
+1.<strong>Independent Software Vendors (ISVs):</strong>
    - Approving third-party software or SaaS systems and tools for use within the company, ensuring they meet security and performance standards.
    - Key links:
       - [Azure Marketplace](https://azure.microsoft.com/en-us/marketplace/)
       - [Microsoft Partner Network](https://partner.microsoft.com/en-us/)
 
-1. <strong>Approved System Integration (SI) Partners:</strong>
+1.<strong>Approved System Integration (SI) Partners:</strong>
    - Vetted SI partners with expertise in your business and AI can be crucial for developing and deploying generative AI applications into production.
    - Key links:
       - [Azure SI Partners](https://azure.microsoft.com/en-us/partners/si/)
       - [Microsoft AI Partners](https://partner.microsoft.com/en-us/)
 
-1. <strong>Training and Certification:</strong>
+1.<strong>Training and Certification:</strong>
    - Providing training and certification programs for employees to enhance their AI skills and knowledge, ensuring they are up-to-date with the latest technologies and best practices.
    - Key links:
       - [Azure Training](https://azure.microsoft.com/en-us/training/)
       - [Microsoft Learn](https://learn.microsoft.com/)
 
-1. <strong>Lightweight Service Provisioning:</strong>
+1.<strong>Lightweight Service Provisioning:</strong>
    - Providing a service that simply offers provisioning without additional assistance or commentary, for teams that prefer a more hands-on approach.
    - Key links:
       - [Azure Resource Manager](https://azure.microsoft.com/en-us/features/resource-manager/)
@@ -162,25 +162,25 @@ This document is a living document and will be updated as new information become
 
 <h2>LLM/GenAI Business Value</h2>
 
-1. <strong>Enhanced Decision Making:</strong>
+1.<strong>Enhanced Decision Making:</strong>
    - AI-driven insights provide a deeper understanding of business operations and market trends, enabling better and faster decision-making processes.
 
-1. <strong>Increased Efficiency:</strong>
+1.<strong>Increased Efficiency:</strong>
    - Automating routine tasks with AI frees up human resources for more strategic work, improving overall productivity and reducing operational costs.
 
-1. <strong>Personalized Customer Experiences:</strong>
+1.<strong>Personalized Customer Experiences:</strong>
    - Leveraging AI to analyze customer data can lead to highly personalized interactions, increasing customer satisfaction and loyalty.
 
-1. <strong>Innovation and Competitive Advantage:</strong>
+1.<strong>Innovation and Competitive Advantage:</strong>
    - Implementing cutting-edge AI solutions can foster innovation, providing a significant competitive edge in the marketplace.
 
-1. <strong>Cost Reduction:</strong>
+1.<strong>Cost Reduction:</strong>
    - AI can optimize resource allocation and reduce waste, leading to substantial cost savings across various business functions.
 
-1. <strong>Risk Management:</strong>
+1.<strong>Risk Management:</strong>
    - AI can enhance risk management by predicting potential issues and enabling proactive measures to mitigate them.
 
-1. <strong>Scalability:</strong>
+1.<strong>Scalability:</strong>
    - AI systems can handle large-scale operations efficiently, allowing businesses to scale their operations without a proportional increase in costs.
 
 <h2>Conclusion</h2>
