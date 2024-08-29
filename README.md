@@ -9,7 +9,7 @@
 
 <ul>
 <li>Responsible for assessing applications from individual business units for corporate fit. This process often involves quantifying business value and technical capability, plotting them along the x and y axis to prioritize applications. Items in the top right quadrant are approved first. Sometimes, the COE may simply provide feedback, leaving the final decision to each business unit.</li>
-<li><strong>Key links:</strong> Azure Application Insights, [Azure Advisor](http://microsoft.com/), [dill]</li>
+<li><strong>Key links:</strong> Azure Application Insights, [Azure Advisor](http://microsoft.com/), [This is an external link to genome.gov](https://www.genome.gov/)</li>
 </ul></li>
 <li><p><strong>Guidance on AI Application Development:</strong></p>
 
