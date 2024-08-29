@@ -4,13 +4,13 @@ When implementing AI/GenAI within a company, a common pattern is to have one gro
 
 There are many aspects to rolling this structure forward, and this repo will discuss many of them to ensure you have a plan, or at least provide a framework/structure to think about each of them. It is broken up into the following considerations but also cross linked where appropriate.
 
-   - People
    - Business/Process
+   - People
    - Technology
 
 This document is a living document and will be updated as new information becomes available and can be directly linked here: [AI COE](https://aka.ms/ai/coe).</p>
 
-<h2>Business Considerations for a COE - People</h2>
+<h2>Business Considerations for a COE</h2>
 
 1. <strong>Vetting Application Portfolio:</strong>
    - Responsible for assessing applications from individual business units for corporate fit. This process often involves quantifying business value and technical capability, plotting them along the x and y axis to prioritize applications. Items in the top right quadrant are approved first. Sometimes, the COE may simply provide feedback, leaving the final decision to each business unit. </li>
@@ -154,14 +154,38 @@ This document is a living document and will be updated as new information become
       - [Azure Resource Manager](https://azure.microsoft.com/en-us/features/resource-manager/)
       - [Azure Automation](https://azure.microsoft.com/en-us/services/automation/)
 
+<h2>People Considerations for a COE</h2>
+
+1. <strong>AI Talent Acquisition:</strong>
+   - Recruiting top AI talent to join the COE, ensuring the team has the necessary skills and expertise to drive AI initiatives forward.
+   - Key links:
+
+
+1. <strong>Training and Development:</strong>
+   - Providing ongoing training and development opportunities for COE team members to enhance their AI skills and stay current with industry trends.
+   - Key links:
+      - [Azure Training](https://azure.microsoft.com/en-us/training/)
+      - [Microsoft Learn](https://learn.microsoft.com/)
+
+1. <strong>Performance Management:</strong>
+   - Implementing a performance management system to evaluate and reward team members based on their contributions to AI projects and the overall success of the COE.
+   - Key links:
+
+1. <strong>Team Building and Collaboration:</strong>
+   - Fostering a collaborative and inclusive team environment to encourage knowledge sharing and innovation among team members.
+   - Key links:
+
+1. <strong>Hackathons and Innovation Challenges:</strong>
+   - Organizing hackathons and innovation challenges to encourage creativity and experimentation among team members, driving new ideas and solutions.
+   - Key links:
+
+1. <strong>Retention and Succession Planning:</strong>
+   - Developing retention and succession plans to ensure the COE retains top talent and has a clear path for future leadership.
+   - Key links:
 
 <h2>Technical Considerations for a COE</h2>
-<h3> People </h3>
 
-<h3> Process </h3>
-
-<h2>LLM/GenAI Business Value</h2>
-
+<strong> Business value </strong> 
 1. <strong>Enhanced Decision Making:</strong>
    - AI-driven insights provide a deeper understanding of business operations and market trends, enabling better and faster decision-making processes.
 
@@ -187,7 +211,7 @@ This document is a living document and will be updated as new information become
 
 <p>This can be a daunting checklist. Once you determine which items are key for your corporate AI Service Provider function, we are happy to have specific discussions around each or review your architecture as a whole. If you do not wish to centralize these functions, the first business unit to roll out generative AI solutions can offer a "blueprint" documenting their approach. This can help new business units avoid common pitfalls and ensure a smoother implementation process. Starting from scratch is challenging, and many teams forget one or more of these crucial elements.</p>
 
-<p>Thank you!</p>
+<p>Thank you!
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
