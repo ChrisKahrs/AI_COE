@@ -10,12 +10,114 @@ There are many aspects to rolling this structure forward, and this repo will dis
 
 This document is a living document and will be updated as new information becomes available and can be directly linked here: [AI COE](https://aka.ms/ai/coe).</p>
 
-<h2>Business Considerations for a COE</h2>
+<h2>Business/Process Considerations for a COE</h2>
+
+1. <strong>Business value of AI/GenAI:</strong>
+   - _Enhanced Decision Making:_
+      - AI-driven insights provide a deeper understanding of business operations and market trends, enabling better and faster decision-making processes.
+
+   - _Increased Efficiency:_
+      - Automating routine tasks with AI frees up human resources for more strategic work, improving overall productivity and reducing operational costs.
+
+   - _Personalized Customer Experiences:_
+      - Leveraging AI to analyze customer data can lead to highly personalized interactions, increasing customer satisfaction and loyalty.
+
+   - _Innovation and Competitive Advantage:_
+      - Implementing cutting-edge AI solutions can foster innovation, providing a significant competitive edge in the marketplace.
+
+   - _Cost Reduction:_
+      - AI can optimize resource allocation and reduce waste, leading to substantial cost savings across various business functions.
+
+   - _Risk Management:_
+      - AI can enhance risk management by predicting potential issues and enabling proactive measures to mitigate them.
+
+   - _Scalability:_
+      - AI systems can handle large-scale operations efficiently, allowing businesses to scale their operations without a proportional increase in costs.
 
 1. <strong>Vetting Application Portfolio:</strong>
    - Responsible for assessing applications from individual business units for corporate fit. This process often involves quantifying business value and technical capability, plotting them along the x and y axis to prioritize applications. Items in the top right quadrant are approved first. Sometimes, the COE may simply provide feedback, leaving the final decision to each business unit. </li>
    - Key links:
       - [Technical considerations for this topic](#Technical-Considerations-for-a-COE)
+      - [Azure Application Insights](https://azure.microsoft.com/en-us/services/monitor/)
+      - [Azure Advisor](http://microsoft.com/) 
+
+1. <strong>Consistent Implementation of Responsible AI Principles:</strong>
+   - Ensuring all AI projects adhere to the company's Responsible AI principles, promoting ethical and fair AI usage.
+   - Key links:
+      - [Microsoft Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai)
+      - [Azure AI Ethics](https://azure.microsoft.com/en-us/services/cognitive-services/)
+
+1. <strong>Legal Indemnification Requirements:</strong>
+   - Managing legal risks associated with AI usage, ensuring compliance with regulations, and protecting the company from potential liabilities.
+   - Key links:
+      - [Microsoft AI Legal](https://www.microsoft.com/en-us/legal/intellectualproperty/ai/)
+      - [Microsoft AI Compliance](https://www.microsoft.com/en-us/trust-center/compliance/compliance-offerings)
+
+1. <strong>Corporate Compliance:</strong>
+   - Ensuring AI projects comply with corporate rules and regulations, including data privacy laws and industry-specific standards.
+   - Key links:
+      - [Azure Compliance Offerings](https://azure.microsoft.com/en-us/overview/trusted-cloud/compliance/)
+      - [Microsoft Compliance Manager](https://www.microsoft.com/en-us/microsoft-365/compliance/compliance-manager)
+
+1. <strong>Cost Containment and Resource Utilization:</strong>
+   - Planning and managing the costs associated with AI projects, optimizing resource utilization and capacity planning to prevent overspending.
+   - Key links:
+      - [Azure Cost Management](https://azure.microsoft.com/en-us/services/cost-management/)
+      - [Azure Capacity Planning](https://azure.microsoft.com/en-us/services/cost-management/)
+
+1. <strong>Chargebacks to Business Units:</strong>
+   - Implementing a chargeback system where business units are billed based on their usage level and the specific services they utilize.
+   - Key links:
+      - [Azure Cost Management + Billing](https://azure.microsoft.com/en-us/services/cost-management/)
+      - [Azure Tagging for Chargebacks](https://azure.microsoft.com/en-us/services/cost-management/)
+
+1. <strong>Independent Software Vendors (ISVs):</strong>
+   - Approving third-party software or SaaS systems and tools for use within the company, ensuring they meet security and performance standards.
+   - Key links:
+      - [Azure Marketplace](https://azure.microsoft.com/en-us/marketplace/)
+      - [Microsoft Partner Network](https://partner.microsoft.com/en-us/)
+
+1. <strong>Approved System Integration (SI) Partners:</strong>
+   - Vetted SI partners with expertise in your business and AI can be crucial for developing and deploying generative AI applications into production.
+   - Key links:
+      - [Azure SI Partners](https://azure.microsoft.com/en-us/partners/si/)
+      - [Microsoft AI Partners](https://partner.microsoft.com/en-us/)
+
+<h2>People Considerations for a COE</h2>
+
+1. <strong>AI Talent Acquisition:</strong>
+   - Recruiting top AI talent to join the COE, ensuring the team has the necessary skills and expertise to drive AI initiatives forward.
+   - Key links:
+
+
+1. <strong>Training, Certification and Development:</strong>
+   - Providing ongoing training and development opportunities for COE team members to enhance their AI skills and stay current with industry trends.
+   - Key links:
+      - [Azure Training](https://azure.microsoft.com/en-us/training/)
+      - [Microsoft Learn](https://learn.microsoft.com/)
+
+1. <strong>Performance Management:</strong>
+   - Implementing a performance management system to evaluate and reward team members based on their contributions to AI projects and the overall success of the COE.
+   - Key links:
+
+1. <strong>Team Building and Collaboration:</strong>
+   - Fostering a collaborative and inclusive team environment to encourage knowledge sharing and innovation among team members.
+   - Key links:
+
+1. <strong>Hackathons and Innovation Challenges:</strong>
+   - Organizing hackathons and innovation challenges to encourage creativity and experimentation among team members, driving new ideas and solutions.
+   - Key links:
+
+1. <strong>Retention and Succession Planning:</strong>
+   - Developing retention and succession plans to ensure the COE retains top talent and has a clear path for future leadership.
+   - Key links:
+
+<h2>Technical Considerations for a COE</h2>
+
+1. <strong>Vetting Application Portfolio:</strong>
+   - Responsible for assessing applications from individual business units for corporate fit. This process often involves quantifying business value and technical capability, plotting them along the x and y axis to prioritize applications. Items in the top right quadrant are approved first. Sometimes, the COE may simply provide feedback, leaving the final decision to each business unit. </li>
+   - Key links:
+      - [Business/Process considerations for this topic](#Technical-Considerations-for-a-COE)
       - [Azure Application Insights](https://azure.microsoft.com/en-us/services/monitor/)
       - [Azure Advisor](http://microsoft.com/) 
 
@@ -75,12 +177,6 @@ This document is a living document and will be updated as new information become
       - [Azure Content Moderator](https://azure.microsoft.com/en-us/services/cognitive-services/content-moderator/)
       - [Azure Security Center](https://azure.microsoft.com/en-us/services/security-center/)
 
-1. <strong>Consistent Implementation of Responsible AI Principles:</strong>
-   - Ensuring all AI projects adhere to the company's Responsible AI principles, promoting ethical and fair AI usage.
-   - Key links:
-      - [Microsoft Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai)
-      - [Azure AI Ethics](https://azure.microsoft.com/en-us/services/cognitive-services/)
-
 1. <strong>Error Handling and Control:</strong>
    - Establishing protocols for identifying, reporting, and mitigating errors in AI systems to maintain reliability and trust.
    - Key links:
@@ -93,35 +189,11 @@ This document is a living document and will be updated as new information become
       - [Azure Support Plans](https://azure.microsoft.com/en-us/support/plans/)
       - [Azure Service Health](https://azure.microsoft.com/en-us/features/service-health/)
 
-1. <strong>Legal Indemnification Requirements:</strong>
-   - Managing legal risks associated with AI usage, ensuring compliance with regulations, and protecting the company from potential liabilities.
-   - Key links:
-      - [Microsoft AI Legal](https://www.microsoft.com/en-us/legal/intellectualproperty/ai/)
-      - [Microsoft AI Compliance](https://www.microsoft.com/en-us/trust-center/compliance/compliance-offerings)
-
-1. <strong>Corporate Compliance:</strong>
-   - Ensuring AI projects comply with corporate rules and regulations, including data privacy laws and industry-specific standards.
-   - Key links:
-      - [Azure Compliance Offerings](https://azure.microsoft.com/en-us/overview/trusted-cloud/compliance/)
-      - [Microsoft Compliance Manager](https://www.microsoft.com/en-us/microsoft-365/compliance/compliance-manager)
-
-1. <strong>Cost Containment and Resource Utilization:</strong>
-   - Planning and managing the costs associated with AI projects, optimizing resource utilization and capacity planning to prevent overspending.
-   - Key links:
-      - [Azure Cost Management](https://azure.microsoft.com/en-us/services/cost-management/)
-      - [Azure Capacity Planning](https://azure.microsoft.com/en-us/services/cost-management/)
-
 1. <strong>Efficient Use of GenAIs:</strong>
    - Large language models can be expensive if not used appropriately. The COE should ensure efficient and effective use to maximize ROI.
    - Key links:
       - [Azure Machine Learning Cost Management](https://azure.microsoft.com/en-us/services/machine-learning/)
       - [Azure AI Optimization](https://azure.microsoft.com/en-us/services/cognitive-services/)
-
-1. <strong>Chargebacks to Business Units:</strong>
-   - Implementing a chargeback system where business units are billed based on their usage level and the specific services they utilize.
-   - Key links:
-      - [Azure Cost Management + Billing](https://azure.microsoft.com/en-us/services/cost-management/)
-      - [Azure Tagging for Chargebacks](https://azure.microsoft.com/en-us/services/cost-management/)
 
 1. <strong>Security Implementation:</strong>
    - Ensuring top-notch security, potentially using services like Entra, to protect AI systems and data.
@@ -129,83 +201,12 @@ This document is a living document and will be updated as new information become
       - [Azure Active Directory (Entra)](https://azure.microsoft.com/en-us/services/active-directory/)
       - [Azure Security Center](https://azure.microsoft.com/en-us/services/security-center/)
 
-
-1. <strong>Independent Software Vendors (ISVs):</strong>
-   - Approving third-party software or SaaS systems and tools for use within the company, ensuring they meet security and performance standards.
-   - Key links:
-      - [Azure Marketplace](https://azure.microsoft.com/en-us/marketplace/)
-      - [Microsoft Partner Network](https://partner.microsoft.com/en-us/)
-
-1. <strong>Approved System Integration (SI) Partners:</strong>
-   - Vetted SI partners with expertise in your business and AI can be crucial for developing and deploying generative AI applications into production.
-   - Key links:
-      - [Azure SI Partners](https://azure.microsoft.com/en-us/partners/si/)
-      - [Microsoft AI Partners](https://partner.microsoft.com/en-us/)
-
-1. <strong>Training and Certification:</strong>
-   - Providing training and certification programs for employees to enhance their AI skills and knowledge, ensuring they are up-to-date with the latest technologies and best practices.
-   - Key links:
-      - [Azure Training](https://azure.microsoft.com/en-us/training/)
-      - [Microsoft Learn](https://learn.microsoft.com/)
-
 1. <strong>Lightweight Service Provisioning:</strong>
    - Providing a service that simply offers provisioning without additional assistance or commentary, for teams that prefer a more hands-on approach.
    - Key links:
       - [Azure Resource Manager](https://azure.microsoft.com/en-us/features/resource-manager/)
       - [Azure Automation](https://azure.microsoft.com/en-us/services/automation/)
 
-<h2>People Considerations for a COE</h2>
-
-1. <strong>AI Talent Acquisition:</strong>
-   - Recruiting top AI talent to join the COE, ensuring the team has the necessary skills and expertise to drive AI initiatives forward.
-   - Key links:
-
-
-1. <strong>Training and Development:</strong>
-   - Providing ongoing training and development opportunities for COE team members to enhance their AI skills and stay current with industry trends.
-   - Key links:
-      - [Azure Training](https://azure.microsoft.com/en-us/training/)
-      - [Microsoft Learn](https://learn.microsoft.com/)
-
-1. <strong>Performance Management:</strong>
-   - Implementing a performance management system to evaluate and reward team members based on their contributions to AI projects and the overall success of the COE.
-   - Key links:
-
-1. <strong>Team Building and Collaboration:</strong>
-   - Fostering a collaborative and inclusive team environment to encourage knowledge sharing and innovation among team members.
-   - Key links:
-
-1. <strong>Hackathons and Innovation Challenges:</strong>
-   - Organizing hackathons and innovation challenges to encourage creativity and experimentation among team members, driving new ideas and solutions.
-   - Key links:
-
-1. <strong>Retention and Succession Planning:</strong>
-   - Developing retention and succession plans to ensure the COE retains top talent and has a clear path for future leadership.
-   - Key links:
-
-<h2>Technical Considerations for a COE</h2>
-
-<strong> Business value </strong> 
-1. <strong>Enhanced Decision Making:</strong>
-   - AI-driven insights provide a deeper understanding of business operations and market trends, enabling better and faster decision-making processes.
-
-1. <strong>Increased Efficiency:</strong>
-   - Automating routine tasks with AI frees up human resources for more strategic work, improving overall productivity and reducing operational costs.
-
-1. <strong>Personalized Customer Experiences:</strong>
-   - Leveraging AI to analyze customer data can lead to highly personalized interactions, increasing customer satisfaction and loyalty.
-
-1. <strong>Innovation and Competitive Advantage:</strong>
-   - Implementing cutting-edge AI solutions can foster innovation, providing a significant competitive edge in the marketplace.
-
-1. <strong>Cost Reduction:</strong>
-   - AI can optimize resource allocation and reduce waste, leading to substantial cost savings across various business functions.
-
-1. <strong>Risk Management:</strong>
-   - AI can enhance risk management by predicting potential issues and enabling proactive measures to mitigate them.
-
-1. <strong>Scalability:</strong>
-   - AI systems can handle large-scale operations efficiently, allowing businesses to scale their operations without a proportional increase in costs.
 
 <h2>Conclusion</h2>
 
