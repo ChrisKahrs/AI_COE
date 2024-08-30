@@ -8,9 +8,9 @@ There are many aspects to rolling this structure forward, and this repo will dis
    - People
    - Technology
 
-This document is a living document and will be updated as new information becomes available and can be directly linked here: [AI COE](https://aka.ms/ai/coe).</p>
+This document is a living document and will be updated as new information becomes available and can be directly linked here: [AI COE](https://aka.ms/ai/coe).
 
-<h2>Business/Process Considerations for a COE</h2>
+<details> <summary><span style="font-size:1.5em;">Business/Process Considerations for a COE</span></summary>
 
 1. <strong>Business value of AI/GenAI:</strong>
    - _Enhanced Decision Making:_
@@ -82,8 +82,10 @@ This document is a living document and will be updated as new information become
    - Key links:
       - [Azure SI Partners](https://azure.microsoft.com/en-us/partners/si/)
       - [Microsoft AI Partners](https://partner.microsoft.com/en-us/)
+</details>
 
-<h2>People Considerations for a COE</h2>
+
+<details> <summary><span style="font-size:1.5em;">People Considerations for a COE</span></summary>
 
 1. <strong>AI Talent Acquisition:</strong>
    - Recruiting top AI talent to join the COE, ensuring the team has the necessary skills and expertise to drive AI initiatives forward.
@@ -112,7 +114,8 @@ This document is a living document and will be updated as new information become
    - Developing retention and succession plans to ensure the COE retains top talent and has a clear path for future leadership.
    - Key links:
 
-<h2>Technical Considerations for a COE</h2>
+</details>
+<details> <summary><span style="font-size:1.5em;">Technical Considerations for a COE</span></summary>
 
 1. <strong>Vetting Application Portfolio:</strong>
    - Responsible for assessing applications from individual business units for corporate fit. This process often involves quantifying business value and technical capability, plotting them along the x and y axis to prioritize applications. Items in the top right quadrant are approved first. Sometimes, the COE may simply provide feedback, leaving the final decision to each business unit. </li>
@@ -207,7 +210,7 @@ This document is a living document and will be updated as new information become
       - [Azure Resource Manager](https://azure.microsoft.com/en-us/features/resource-manager/)
       - [Azure Automation](https://azure.microsoft.com/en-us/services/automation/)
 
-
+</details>
 <h2>Conclusion</h2>
 
 <p>This can be a daunting checklist. Once you determine which items are key for your corporate AI Service Provider function, we are happy to have specific discussions around each or review your architecture as a whole. If you do not wish to centralize these functions, the first business unit to roll out generative AI solutions can offer a "blueprint" documenting their approach. This can help new business units avoid common pitfalls and ensure a smoother implementation process. Starting from scratch is challenging, and many teams forget one or more of these crucial elements.</p>
@@ -217,4 +220,3 @@ This document is a living document and will be updated as new information become
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-   [dill]: <https://github.com/joemccann/dillinger>
