@@ -11,7 +11,7 @@ There are many aspects to rolling this structure forward, and this repo will dis
 
 This document is a living document and will be updated as new information becomes available and can be directly linked here: [AI COE](https://aka.ms/ai/coe). Everyone (Partners, Customers, Microsoft Internal, etc.) should feel free to fork and submit pull requests to improve this document as it is to lift the entire community.  Thank you!
 
-<details> <summary><span style="font-size:30px;">Business/Process Considerations for a COE</span></summary>
+<details> <summary><strong>Business/Process Considerations for a COE</strong></summary>
 
 1. <strong>Business value of AI/GenAI:</strong>
    - _Enhanced Decision Making:_
@@ -86,7 +86,7 @@ This document is a living document and will be updated as new information become
 </details>
 
 
-<details> <summary><span style="font-size:20px;">People Considerations for a COE</span></summary>
+<details> <summary><h2>People Considerations for a COE</h2></summary>
 
 1. <strong>AI Talent Acquisition:</strong>
    - Recruiting top AI talent to join the COE, ensuring the team has the necessary skills and expertise to drive AI initiatives forward.
