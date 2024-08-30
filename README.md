@@ -11,7 +11,7 @@ There are many aspects to rolling this structure forward, and this repo will dis
 
 This document is a living document and will be updated as new information becomes available and can be directly linked here: [AI COE](https://aka.ms/ai/coe). Everyone (Partners, Customers, Microsoft Internal, etc.) should feel free to fork and submit pull requests to improve this document as it is to lift the entire community.  Thank you!
 
-<details> <summary><span style="font-size:2em;">Business/Process Considerations for a COE</span></summary>
+<details> <summary><span style="font-size:3em;">Business/Process Considerations for a COE</span></summary>
 
 1. <strong>Business value of AI/GenAI:</strong>
    - _Enhanced Decision Making:_
