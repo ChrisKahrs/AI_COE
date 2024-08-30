@@ -211,7 +211,7 @@ This document is a living document and will be updated as new information become
       - [Azure Automation](https://azure.microsoft.com/en-us/services/automation/)
 
 </details>
-<h2>Conclusion</h2>
+<h3>Conclusion</h3>
 
 <p>This can be a daunting checklist. Once you determine which items are key for your corporate AI Service Provider function, we are happy to have specific discussions around each or review your architecture as a whole. If you do not wish to centralize these functions, the first business unit to roll out generative AI solutions can offer a "blueprint" documenting their approach. This can help new business units avoid common pitfalls and ensure a smoother implementation process. Starting from scratch is challenging, and many teams forget one or more of these crucial elements.</p>
 
