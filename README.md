@@ -1,7 +1,7 @@
 <h1>Internal AI Service Provider/Center of Excellence</h1>
 
 <h3>Abstract/Summary</h3>
-When implementing AI/GenAI within a company, a common pattern is to have one group take the lead. This is often central IT, but not always; a key business unit can work just as well. This coincides with the rise of the Chief AI Officer (CAIO) role being created and elevated to often reporting to the CEO to ensure business is unincumbered to quickly take advantage of these new models.  
+When implementing AI/GenAI within a company, a common pattern is to have one group take the lead. This is often central IT, but not always; a key business unit can work just as well. This coincides with the rise of the Chief AI Officer (CAIO) role being created and elevated to often reporting to the CEO to ensure business is unincumbered to quickly take advantage of these new models.  </p>
 
 There are many aspects to rolling this structure forward, and this repo will discuss many of them to ensure you have a plan, or at least provide a framework/structure to think about each of them. It is broken up into the following considerations but also cross linked where appropriate.
 
@@ -119,7 +119,7 @@ This document is a living document and will be updated as new information become
 <details> <summary><h2>Technical Considerations for a COE</h2></summary>
 
 1. <strong>Vetting Application Portfolio:</strong>
-   - Responsible for assessing applications from individual business units for corporate fit. This process often involves quantifying business value and technical capability, plotting them along the x and y axis to prioritize applications. Items in the top right quadrant are approved first. Sometimes, the COE may simply provide feedback, leaving the final decision to each business unit. </li>
+   - Responsible for assessing applications from individual business units for corporate fit. This process often involves quantifying business value and technical capability, plotting them along the x and y axis to prioritize applications. Items in the top right quadrant are approved first. Sometimes, the COE may simply provide feedback, leaving the final decision to each business unit.
    - Key links:
       - [Business/Process considerations for this topic](#Technical-Considerations-for-a-COE)
       - [Azure Application Insights](https://azure.microsoft.com/en-us/services/monitor/)
