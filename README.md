@@ -1,5 +1,6 @@
 <h1>Internal AI Service Provider/Center of Excellence</h1>
 
+<h3>Abstract/Summary</h3>
 When implementing AI/GenAI within a company, a common pattern is to have one group take the lead. This is often central IT, but not always; a key business unit can work just as well. This coinsides with the rise of the Chief AI Officer (CAIO) role being created and elevated to often reporting to the CEO to ensure business is unincumbered to quickly take advantage of these new models.  
 
 There are many aspects to rolling this structure forward, and this repo will discuss many of them to ensure you have a plan, or at least provide a framework/structure to think about each of them. It is broken up into the following considerations but also cross linked where appropriate.
