@@ -8,9 +8,9 @@ There are many aspects to rolling this structure forward, and this repo will dis
    - People
    - Technology
 
-This document is a living document and will be updated as new information becomes available and can be directly linked here: [AI COE](https://aka.ms/ai/coe).
+This document is a living document and will be updated as new information becomes available and can be directly linked here: [AI COE](https://aka.ms/ai/coe). Everyone (Partners, Customers, Microsoft Internal, etc.) should feel free to fork and submit pull requests to improve this document as it is to lift the entire community.  Thank you!
 
-<details> <summary><span style="font-size:1.5em;">Business/Process Considerations for a COE</span></summary>
+<details> <summary><span style="font-size:2em;">Business/Process Considerations for a COE</span></summary>
 
 1. <strong>Business value of AI/GenAI:</strong>
    - _Enhanced Decision Making:_
@@ -85,7 +85,7 @@ This document is a living document and will be updated as new information become
 </details>
 
 
-<details> <summary><span style="font-size:1.5em;">People Considerations for a COE</span></summary>
+<details> <summary><span style="font-size:2em;">People Considerations for a COE</span></summary>
 
 1. <strong>AI Talent Acquisition:</strong>
    - Recruiting top AI talent to join the COE, ensuring the team has the necessary skills and expertise to drive AI initiatives forward.
@@ -115,7 +115,7 @@ This document is a living document and will be updated as new information become
    - Key links:
 
 </details>
-<details> <summary><span style="font-size:1.5em;">Technical Considerations for a COE</span></summary>
+<details> <summary><span style="font-size:2em;">Technical Considerations for a COE</span></summary>
 
 1. <strong>Vetting Application Portfolio:</strong>
    - Responsible for assessing applications from individual business units for corporate fit. This process often involves quantifying business value and technical capability, plotting them along the x and y axis to prioritize applications. Items in the top right quadrant are approved first. Sometimes, the COE may simply provide feedback, leaving the final decision to each business unit. </li>
