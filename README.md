@@ -135,6 +135,7 @@ This document is a living document and will be updated as new information become
 1. <strong>Strong LMMOps Model and Process:</strong>
    - Ensuring a robust model for managing machine learning operations (MLOps), specifically for large language models (LLMs). This includes monitoring, maintaining, and updating models to ensure they meet the company's standards and needs. Moving models to production is key.
    - Review AI Studio as a framework for LLMOps continuous evaluation and deployment
+   - Roleback Deployments
    - Key links:
       - [Azure MLOps](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-ops-overview)
       - [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/)
